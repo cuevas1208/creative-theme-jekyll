@@ -1117,6 +1117,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 .img-rounded {
   border-radius: 6px;
 }
@@ -1132,6 +1133,12 @@ img {
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
+}
+.img-demo {
+    vertical-align: middle;
+    width:  50px;
+    height: 50px;
+    object-fit: cover;
 }
 .img-circle {
   border-radius: 50%;
